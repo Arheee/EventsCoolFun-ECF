@@ -82,7 +82,8 @@ Participant et Event : Les participants peuvent s’inscrire ou se désinscrire 
  - Admin se connection -> Accède au tableau de liste d'evenement -> Voir en detail/Ajouter/Modifier/Supprimer un evenement 
 	- -> depuis la navbar peut accéder a la liste de participants -> detail/Supprimer
 	- -> depuis la navbar peut -> se deconnecter 
-
+# Maquette Wireframe
+dossier doc -> Wirefram 
 -------------------------------
 ## 3.Diagramme  : 
 ![ECFDiag](https://github.com/user-attachments/assets/2e7d658d-8c4f-4fa4-bfb2-247806799bba)
