@@ -1,26 +1,28 @@
-##Gestion d'event pour ECF ( Event Cool & Fun )✨
+## Gestion d'event pour ECF ( Event Cool & Fun )✨
 
-## 1.Objectifs du projet
+# 1.Objectifs du projet
 
 L'objectif de ce projet est de créer une application simple permettant à un administrateur de gérer des événements et leurs participants. 
+
 Les actions principales incluent :
 Authentification d'un administrateur pour accéder au système
 Gestion des événements : création, modification, suppression, et consultation des détails
 Gestion des participants associés à chaque événement : ajout, suppression
 
-## Utilisateurs cibles
+# Utilisateurs cibles
 
 Administrateur : Responsable de la gestion complète des événements et participants.
 
-## Technologies
-- ASP.NET Core (C#) MVC (Model views controller)
-- Bootstrap (pour le design)
-Base de données : Entity Framework Core avec SQL Server (admin et événements)
-- MongoDB pour stocker les participant 
+# Technologies
+- Framework : ASP.NET Core (C#) MVC (Model views controller)
+- Design :  Bootstrap (pour le design)
+- Base de données :
+SQL Server avec Entity Framework Core (pour les administrateurs et événements).
+MongoDB (pour le stockage des participants).
 
 
 
-Fonctionnalités :
+# Fonctionnalités :
 - Connexion et Deconnexion en tant qu'admin
 - Création, modification, et suppression d'événements
 - Affichage des détails d'un événement (y compris la liste des participants)
@@ -79,9 +81,18 @@ Admin et Participant : L’administrateur peut ajouter ou retirer des participan
 Participant et Event : Les participants peuvent s’inscrire ou se désinscrire à des événements.
 
 # WorkFlow 
- - Admin se connection -> Accède au tableau de liste d'evenement -> Voir en detail/Ajouter/Modifier/Supprimer un evenement 
-	- -> depuis la navbar peut accéder a la liste de participants -> detail/Supprimer
-	- -> depuis la navbar peut -> se deconnecter 
+ -L'administrateur se connecte.
+
+Il accède au tableau de bord contenant la liste des événements.
+
+Depuis cette interface, il peut :
+
+Voir en détail, ajouter, modifier ou supprimer un événement.
+
+Accéder à la liste des participants via la barre de navigation.
+
+Se déconnecter via la barre de navigation.
+
 # Maquette Wireframe
 dossier doc -> Wireframe
 ![maquette](https://github.com/user-attachments/assets/7f91a631-4732-4cc7-be00-6bdb67a80153)
@@ -98,6 +109,7 @@ Prérequis
 .NET SDK (version 6.0 ou ultérieure)
 Visual Studio 2022 ou tout autre IDE compatible
 
+# Etapes
 1.Cloner le projet
 ``` git clone https://github.com/Arheee/EventsCoolFun-ECF/ ```
 2.Installer les dépendances NuGet nécessaires (EF Core, SQL Server, Tools, Session, MongoDB.Driver)
@@ -109,8 +121,10 @@ Visual Studio 2022 ou tout autre IDE compatible
  ```  dotnet run  ```
 
 # 5.Fonctionnalités
-Mise en place des models : Event et Admin en Ef sql server et Participant en MongoDb. SeederMongo pour avoir une liste de participants par défauts. 
+Implémentation des modèles : Event et Admin avec SQL Server via Entity Framework Core.
+Gestion des participants stockés en MongoDB avec un seeder par défaut.
 Page de connexion : L'admin entre son user et mdp , il est dirigé vers l'acceuil. Accès possible a la liste des events et des participants. 
+Accès aux listes des événements et des participants depuis la barre de navigation.
 
 # 6.Planification future :
 Ajouter une gestion des sessions pour sécuriser les actions de l'admin
@@ -122,4 +136,4 @@ Arheee : Justine wlt ✨
 _______________________________________________
 
 Ce projet a été réalisé dans le cadre de l'ECF et vise à illustrer les compétences en développement logiciel et gestion de projet.
-17/01/2025
+Date : 17/01/2025
