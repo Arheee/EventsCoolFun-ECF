@@ -106,7 +106,8 @@ Visual Studio 2022 ou tout autre IDE compatible
  ```  dotnet run  ```
 
 # 5.Fonctionnalités
-a écrire 
+Mise en place des models : Event et Admin en Ef sql server et Participant en MongoDb. SeederMongo pour avoir une liste de participants par défauts. 
+Page de connexion : L'admin entre son user et mdp , il est dirigé vers l'acceuil. Accès possible a la liste des events et des participants. 
 
 # 6.Planification future :
 Ajouter une gestion des sessions pour sécuriser les actions de l'admin
