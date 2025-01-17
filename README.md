@@ -83,7 +83,9 @@ Participant et Event : Les participants peuvent s’inscrire ou se désinscrire 
 	- -> depuis la navbar peut accéder a la liste de participants -> detail/Supprimer
 	- -> depuis la navbar peut -> se deconnecter 
 # Maquette Wireframe
-dossier doc -> Wirefram 
+dossier doc -> Wireframe
+![maquette](https://github.com/user-attachments/assets/7f91a631-4732-4cc7-be00-6bdb67a80153)
+
 -------------------------------
 ## 3.Diagramme  : 
 ![ECFDiag](https://github.com/user-attachments/assets/2e7d658d-8c4f-4fa4-bfb2-247806799bba)
