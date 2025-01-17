@@ -1,0 +1,21 @@
+﻿@using Microsoft.AspNetCore.Http
+
+<div style="text-align: center;">
+    <h1>Connexion</h1>
+    <form asp-action="Login" method="post">
+        <div>
+            <input type="text" name="name" placeholder="Nom d'utilisateur" required />
+        </div>
+        <div>
+            <input type="password" name="password" placeholder="Mot de passe" required />
+        </div>
+        <div>
+            <button type="submit">Connexion</button>
+        </div>
+    </form>
+
+    @if (!string.IsNullOrEmpty(ViewBag.Message))
+    {
+        <p style="color: red;">@ViewBag.Message</p>
+    }
+</div>
